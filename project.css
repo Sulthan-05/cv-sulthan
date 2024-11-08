@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:arial, sans-serif;
+}
+
+body{
+    background-color:#f4f6f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-container{
+    display: flex;
+    max-width: 1000px;
+    background-color:#ffffff;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sidebar{
+    background-color: #050000d4;
+    color: #ecf0f1;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-poto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom:15px;
+}
+
+.job-title{
+    font-size: 1.2em;
+    color: #ecf0f1;
+    margin-bottom: 15px;
+}
+
+.conten-info p, .social-links{
+    color: #bdc3c7;
+    margin-bottom: 8px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 0.9em;
+}
+
+.social-links a:hover{
+    color: #232323;
+}
+
+.content{
+    width: 70%;
+    padding: 30px;
+}
+
+h2{
+    color: #140249;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about p{
+    line-height: 1.6;
+    color: rgba(23, 22, 22, 0.895);
+    margin-bottom: 20px;
+    font-size:115%;
+    font-weight: bold;
+}
+
+.job, .education-item{
+    margin-bottom: 15px;
+}
+
+.position{
+    font-weight: bold;
+    color: #232323;
+    margin-bottom: 8px;
+}
+
+.skills .skill{
+    margin-bottom: 10px;
+}
+
+.skill-name{
+    font-size: 0.9em;
+    color: #34495e;
+    margin-bottom: 3px;
+}
+
+.skill-bar{
+    background-color: #ecf0f1;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-level{
+    height: 8px;
+    background-color: #3498db;
+    border-radius: 4px;
+}
